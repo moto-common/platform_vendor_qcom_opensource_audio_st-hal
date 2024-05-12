@@ -15,7 +15,7 @@ ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DAEMON_SUPPORT)), true)
   LOCAL_CFLAGS += -DDAEMON_SUPPORT_AUTO
 endif
 
-LOCAL_CFLAGS += -Wall -Werror
+LOCAL_CFLAGS += -Wall
 
 LOCAL_SRC_FILES := \
     sound_trigger_hw.c \
